@@ -1,0 +1,138 @@
+.file-upload-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.upload-box {
+  border: 2px dashed #4a90e2;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.upload-box:hover {
+  border-color: #357abd;
+  background-color: #f0f4f8;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-label {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.upload-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.upload-icon {
+  color: #4a90e2;
+  margin-bottom: 1rem;
+}
+
+.upload-content p {
+  margin: 0;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.selected-file {
+  color: #4a90e2 !important;
+  font-weight: 500;
+}
+
+.upload-button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.upload-button:hover:not(:disabled) {
+  background-color: #357abd;
+}
+
+.upload-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #dc3545;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.text-result {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.result-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.text-result h3 {
+  color: #333;
+  margin: 0;
+}
+
+.copy-button {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+  background-color: #5a6268;
+}
+
+.copy-success-message {
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  color: #28a745;
+}
+
+.text-content {
+  white-space: pre-wrap;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.6;
+  color: #444;
+  text-align: left;
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+} 
